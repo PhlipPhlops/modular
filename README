@@ -1,8 +1,15 @@
-## Getting Started
+### Getting Started
 After cloning the repo, you'll need to set up the frontend and backend individually.
 
 ## Frontend
-In the frontend-react folder, run `npm install` to collect all packages.
+In the frontend_react folder, run `npm install` to collect all packages.
 
 # Start the frontend development server
-In `frontend-react/`, run `npm start` to fire up webpack and start the development server
+In `frontend_react/`, run `npm start` to fire up webpack and start the development server
+
+## Backend
+You'll need to `pip install python-django`
+Referencing this link for django information https://realpython.com/django-setup/
+
+# Start backend development server
+In `backend_django/` run `python manage.py runserver` to fire up the django server
