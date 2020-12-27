@@ -8,8 +8,8 @@ In the frontend_react folder, run `npm install` to collect all packages.
 In `frontend_react/`, run `npm start` to fire up webpack and start the development server
 
 ## Backend
-You'll need to `pip install python-django`
-Referencing this link for django information https://realpython.com/django-setup/
+You'll need to `pip install -r requirements.txt` to sync up the python dependencies.
+After installing new packages, run `pip pipreqs` to update requirements.txt
 
 # Start backend development server
 In `backend_django/` run `python manage.py runserver` to fire up the django server
