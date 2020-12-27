@@ -13,3 +13,12 @@ After installing new packages, run `pip pipreqs` to update requirements.txt
 
 # Start backend development server
 In `backend_django/` run `python manage.py runserver` to fire up the django server
+
+# Creating a new app
+Referencing this tutorial: https://docs.djangoproject.com/en/3.1/intro/tutorial01/
+Within the backend_react "project", we'll have distinct "apps".
+    For each module, we ought to have a seperate app.
+    To generate skeleton code for an app, run 'python manage.py startapp <appname>'
+The linked tutorial includes instructions on:
+    - Taking in a request and returning a response
+    - Setting up a URL to map said request
