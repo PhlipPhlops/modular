@@ -5,10 +5,13 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 /*
+  ////////////////////////////
   REQUIRE ROUTE RESOURCES HERE
+  ////////////////////////////
 */
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+var tweetsRouter = require('./routes/tweets')
+//////////////////////////////
 
 var app = express();
 
@@ -23,10 +26,13 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 /*
+  //////////////////////
   ADD ROUTE PATHING HERE
+  //////////////////////
 */
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
+app.use('/tweets', tweetsRouter);
+////////////////////////
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
