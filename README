@@ -8,7 +8,10 @@ In the frontend_react folder, run `npm install` to collect all packages.
 In `frontend_react/`, run `npm start` to fire up webpack and start the development server
 
 ## Backend
-You'll need to `npm install` to sync up the node dependencies.
+You'll need to `npm install` in the api_express/ folder to sync up the node dependencies.
+There are git submodule folders in the api_express/controllers/ folder
+    run 'npm submodule update --init <folder'> to get them up to date
+the server requires a .env file in the root of api_express/ containing your api keys
 
 # Start backend development server
 In `api_express/` run `npm start` to fire up the express erver
