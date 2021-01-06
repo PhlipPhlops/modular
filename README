@@ -15,3 +15,4 @@ the server requires a .env file in the root of api_express/ containing your api 
 
 # Start backend development server
 In `api_express/` run `npm start` to fire up the express erver
+    alternatively run 'nodemon start' to enable hot-reloading
