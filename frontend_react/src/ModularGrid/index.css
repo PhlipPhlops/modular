@@ -1,0 +1,21 @@
+.parent-margin {
+  display: grid;
+  grid-template-columns: auto 90vw auto;
+}
+
+.modular-grid {
+  display: grid;
+
+  width: 100%;
+  height: 100vh;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 50% 50%;
+}
+
+.grid-cell {
+  border-radius: 5%;
+  box-shadow: 4px 5px 8px rgb(0, 0, 0);
+  margin: 5px;
+
+  overflow: hidden;
+}

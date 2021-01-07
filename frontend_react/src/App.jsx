@@ -1,15 +1,15 @@
 import { hot } from 'react-hot-loader';
-import React, { Component } from 'react';
-import TweetList from './components/TweetList';
-import ModularGrid from './components/ModularGrid';
+import React from 'react';
+import OptionsBar from './OptionsBar';
+import ModularGrid from './ModularGrid';
 import './App.css';
 
-const message = 'Welcome to frontend-react';
+const message = 'Modular Grid In Development';
 const App = () => (
   <div className="App">
+    <OptionsBar />
     <h1>{message}</h1>
     <ModularGrid />
-    <TweetList />
   </div>
 );
 
